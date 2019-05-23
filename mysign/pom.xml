@@ -44,7 +44,7 @@
 			<artifactId>druid</artifactId>
 			<version>1.1.12</version>
 		</dependency>
-		
+
 		<!--引入数据库驱动 -->
 		<dependency>
 			<groupId>org.xerial</groupId>
@@ -55,6 +55,13 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<!-- 添加oracle jdbc driver -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.4.0</version>
 		</dependency>
 
 		<!--spring整合mybatis-plus -->
